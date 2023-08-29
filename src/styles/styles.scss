@@ -1,0 +1,35 @@
+// Write your overrides
+@import 'mixins';
+@import 'classes';
+
+// Hide due to API not support change items per page for now
+.v-data-table-footer__items-per-page {
+  display: none;
+}
+
+.required label::after {
+  content: '*';
+}
+
+.v-snackbar__wrapper {
+  overflow: hidden;
+  word-break: break-word;
+}
+
+.v-snackbar__content {
+  padding: 0;
+}
+
+.btn-link {
+  text-transform: initial;
+}
+
+.v-messages__message {
+  white-space: pre-line;
+  line-height: rem(16);
+}
+
+.v-input__details {
+  padding-inline-start: rem(16);
+  padding-inline-end: rem(16);
+}

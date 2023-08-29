@@ -1,0 +1,23 @@
+.auth-wrapper {
+  min-block-size: calc(var(--vh, 1vh) * 100);
+}
+
+.auth-card {
+  z-index: 1 !important;
+  width: 448px;
+}
+
+.auth-logo {
+  position: absolute;
+  z-index: 1;
+  inset-block-start: 2rem;
+  inset-inline-start: 2.3rem;
+}
+
+.auth-bg {
+  background-color: rgb(var(--v-theme-surface));
+}
+
+.auth-error {
+  color: rgb(var(--v-theme-error))
+}

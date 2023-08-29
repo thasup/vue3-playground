@@ -1,29 +1,48 @@
-# README #
+# Vue 3 Template
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This project is build from Vue3+Typescript. Support use Node version 16.0 or higher.
 
-### What is this repository for? ###
+## Tech Stack
+- [Vuetifyjs](https://vuetifyjs.com/en/)
+- [Pinia](https://pinia.vuejs.org/)
+- [SCSS](https://sass-lang.com/)
+- [Vitest](https://vitest.dev/)
+- [Vuelidate](https://vuelidate.js.org/)
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### Setup Project
 
-### How do I get set up? ###
+```sh
+npm install
+```
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+### Compile and Hot-Reload for Development
 
-### Contribution guidelines ###
+```sh
+npm run dev
+```
 
-* Writing tests
-* Code review
-* Other guidelines
+### Compile and Minify for Production
 
-### Who do I talk to? ###
+```sh
+npm run build
+```
 
-* Repo owner or admin
-* Other community or team contact
+### Run linter
+```sh
+npm run lint
+```
+
+### Run check typescript
+```sh
+npm run type-check
+```
+
+### Run unit tests
+```sh
+npm run test:unit
+```
+
+### Run coverage tests
+```sh
+npm run test:coverage
+```

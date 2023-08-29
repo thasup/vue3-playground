@@ -1,0 +1,8 @@
+// These are styles which are both common in layout w/ vertical nav & horizontal nav
+@use "@layouts/styles/placeholders";
+@use "@configured-variables" as variables;
+
+html,
+body {
+  min-block-size: 100%;
+}
