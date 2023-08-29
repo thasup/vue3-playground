@@ -46,3 +46,9 @@ npm run test:unit
 ```sh
 npm run test:coverage
 ```
+
+### Log In
+```
+username: admin
+password: 1234
+```
